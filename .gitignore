@@ -1,0 +1,10 @@
+node_modules
+dist/
+
+*.swp
+*.vi
+*~
+
+.DS_Store
+Thumbs.db
+.cache
