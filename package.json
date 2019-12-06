@@ -1,23 +1,33 @@
 {
-  "name": "",
-  "description": "",
-  "main": "",
+  "name": "afterburner",
+  "description": "3D Low-poly Jet Engine Afterburner",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
     "start": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
-  "license": "",
+  "author": "Franklin Castellanos",
+  "license": "ISC",
   "dependencies": {
-    "three": "^0.111.0",
-    "three-orbitcontrols": "^2.102.1",
+    "@tweenjs/tween.js": "^18.4.2",
     "html-loader": "^0.5.5",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^3.2.0",
+    "three": "^0.111.0",
+    "three-orbitcontrols": "^2.102.1",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
   },
-  "version": ""
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onecastell/Afterburner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onecastell/Afterburner/issues"
+  },
+  "homepage": "https://github.com/onecastell/Afterburner#readme"
 }
